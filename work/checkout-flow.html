@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simplifying Web-to-Product Checkout — Mary Truong</title>
+  <meta name="description" content="Case study: redesigning Xero's checkout to take payment upfront across multiple markets, lifting sign-up-to-paid conversion.">
+  <meta property="og:title" content="Simplifying Web-to-Product Checkout — Mary Truong">
+  <meta property="og:description" content="Case study: redesigning Xero's checkout to take payment upfront across multiple markets, lifting sign-up-to-paid conversion.">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://marytruong.design/work/checkout-flow.html">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/">Mary Truong</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/#work">Work</a>
+        <a href="/about.html">About</a>
+        <a href="https://drive.google.com/file/d/1UsiErJGyU9-mSsMNYVOC-aUjv8Ebl311/preview">Resume</a>
+        <a href="https://www.linkedin.com/in/marytruong/">LinkedIn</a>
+        <a href="mailto:marytruong.zmy@gmail.com">Email</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <section class="case-header wrap">
+        <p class="kicker">Xero &middot; Conversion &middot; Multi-Market &middot; Payments</p>
+        <h1>Simplifying Web-to-Product Checkout</h1>
+        <p class="lede">
+          Redesigning checkout to take payment upfront across multiple markets. I redesigned
+          key parts of Xero&rsquo;s web-to-product signup so customers could provide payment
+          details during sign&#8209;up, removing a duplicated plan decision and closing the gap
+          between the marketing site and product onboarding.
+        </p>
+
+        <div class="fact-groups">
+          <div>
+            <p class="eyebrow">Impact</p>
+            <ul class="fact-list">
+              <li>+6.40% web sign-up &rarr; paid uplift (US)</li>
+              <li>+1.51% web sign-up &rarr; paid uplift (NZ)</li>
+            </ul>
+          </div>
+          <div>
+            <p class="eyebrow">Scale</p>
+            <ul class="fact-list">
+              <li>12 &rarr; 9 screens</li>
+              <li>Live across US, NZ, UK, AU</li>
+              <li>Xero.com: 13 regional markets</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <hr class="divider">
+
+      <section class="wrap">
+        <div class="case-body stack">
+          <h2>Context</h2>
+          <p>
+            Only 17 of every 100 customers who completed the web sign&#8209;up form went on to
+            buy Xero. That 83% drop&#8209;off across the full signup funnel was one of the
+            company&rsquo;s OKRs the year I worked on this. The loss was spread across a long
+            journey: from the website sign&#8209;up screens to account activation by email,
+            again at organisation creation, again during setup inside the product, and again
+            at a second, product&#8209;side checkout.
+          </p>
+          <p>
+            The underlying problem was a disjointed flow that made customers repeat a decision.
+            Xero&rsquo;s signup gave people two ways in: a 30&#8209;day free trial with access to
+            all features and no payment details, or a plan&#8209;specific &ldquo;Buy now&rdquo;
+            path that also didn&rsquo;t take payment on the website. In the buy&#8209;now path a
+            customer chose a specific plan on the website, then left for their email inbox,
+            activated an account, set up their organisation inside the product, and chose a plan
+            again in a product checkout that looked different from the website and used slightly
+            different labels.
+          </p>
+          <p>
+            Customers had to make the same high&#8209;stakes decision twice, in two visual
+            languages, across two platforms. Xero&rsquo;s customers are small business owners
+            &mdash; sole traders, creatives, hospitality operators &mdash; and most aren&rsquo;t
+            accountants. Many rely on a bookkeeper or pick whatever their accountant recommends,
+            then get back to their work. Earlier research showed this repetition and mismatch
+            stalled them.
+          </p>
+          <p>
+            The decision to move payment upfront to the website was set at a business level; my
+            role was to make it work as an experience. Taking payment earlier would typically
+            increase drop&#8209;off, but the hypothesis was that the real friction wasn&rsquo;t
+            the payment details &mdash; it was the fractured journey and the repeated decision.
+            A single continuous flow would attract higher&#8209;intent customers rather than
+            low&#8209;intent trial sign&#8209;ups.
+          </p>
+          <blockquote>
+            Before: free trial &rarr; re-select plan in-product &rarr; enter payment in-product.
+            After: choose plan and pay on the website &rarr; single continuous flow into product.
+          </blockquote>
+
+          <h2>My Role</h2>
+          <p>
+            The work ran across two phases, growing in scope as I moved teams. Phase 1
+            introduced and validated the new flow on the website sign&#8209;up screens in the
+            US and NZ. Phase 2 scaled it to the UK, AU and CA, and carried into the in&#8209;product
+            checkout, with the added complexity of tax, discounting, and the emails.
+          </p>
+          <p>Across the project I:</p>
+          <ul>
+            <li>
+              Designed the order summary panel across desktop, tablet and mobile. I built the
+              desktop prototype; the senior designer built mobile and owned the form fields and
+              confirmation page.
+            </li>
+            <li>Ran 4 of 8 moderated sessions with US participants, and synthesised the findings alongside the senior designer.</li>
+            <li>Mapped how the new flow would coexist with the live trial and buy&#8209;now paths, including every website entry point into signup (pricing, feature and plan pages).</li>
+            <li>
+              In Phase 2, contributed to localising the experience for the UK and AU rollout
+              alongside a peer designer, and owned the tax&#8209;communication redesign across
+              the US, NZ, UK, CA and AU. The in&#8209;product discount error handling and the
+              post&#8209;signup email redesign applied across all regions.
+            </li>
+            <li>The redesign extended into adjacent subscription-management screens the payment-first flow fed into &mdash; updating payment details, plan changes, ownership transfer and cancellation.</li>
+          </ul>
+          <p>
+            The experience rolled out gradually rather than all at once: it launched in the US
+            in 2024 as a subscription&#8209;opt&#8209;out experiment at 5% of traffic, scaled to
+            a 50% A/B test, then to 100% on the main pages, and lifted conversion in both the US
+            and NZ.
+          </p>
+
+          <h2>The Design</h2>
+          <h3>Order Summary Panel</h3>
+          <p>
+            The order summary panel is the persistent &ldquo;receipt&rdquo; beside the signup
+            steps &mdash; a constant reference for what the customer is buying. I designed it to
+            feel familiar, following the mental model of a receipt, so customers could take it
+            in at a glance without leaving the form to check.
+          </p>
+          <p>Four key design decisions shaped the final component.</p>
+
+          <p><strong>1. Panel placement: left to right.</strong> The first iteration inherited
+          the existing trial and buy&#8209;now layout, with the panel on the left and the form
+          on the right. That worked for a single&#8209;page form. But the new flow is
+          multi&#8209;step, and here it broke down: the form &mdash; the customer&rsquo;s actual
+          task &mdash; sat on the right, while the unchanging panel held the primary reading
+          position on the left. Following an F&#8209;reading pattern, customers met secondary
+          information first at every step. Moving the panel to the right matched standard SaaS
+          checkout convention, where action leads and the summary supports, and let the panel
+          hold one consistent position across all four steps.</p>
+
+          <p><strong>2. Discount colour: blue to green.</strong> Baby&#8209;blue was the
+          established discount signal across Xero&rsquo;s website, so it seemed the obvious
+          choice for &ldquo;get one month free.&rdquo; But in the context of the page, rather
+          than in isolation, the blue flattened into the pale&#8209;blue background and lost all
+          signal. Green isn&rsquo;t the established promotional colour, but it reads as positive,
+          works as an accessible standalone colour for the saving and the &ldquo;$0.00,&rdquo;
+          and stays legible against the background. Green was used to signal the discount over
+          the established blue &mdash; clarity for the customer was prioritised over consistency
+          with an internal convention.</p>
+
+          <p><strong>3. Discount summary: many lines to one.</strong> My first version mirrored
+          the website pricing table, showing each saving where it happened: the usual plan
+          price, the discounted price, the saving and its period, a highlighted dollar saving,
+          then the totals. Stress&#8209;testing against stacked promotions (one&#8209;month&#8209;free,
+          a percentage discount, and multiple add&#8209;ons) showed that in a narrow panel it
+          became a long, repetitive column where every section carried its own maths, and on
+          mobile the total needed scrolling to reach. I listed the usual amounts cleanly per line
+          and resolved all the discounting once, at the bottom &mdash; same information, less to
+          process, total always in view.</p>
+
+          <p><strong>4. Price wording: removing &ldquo;usual.&rdquo;</strong> Research showed
+          &ldquo;usual&rdquo; (&ldquo;usual monthly total&rdquo;) created uncertainty &mdash; it
+          implied the price was provisional and might rise later. Around the same time the
+          business changed how tax worked (covered in Phase 2), so the panel also had to show
+          that tax depended on the billing address entered. &ldquo;Usual monthly total&rdquo;
+          became &ldquo;recurring total,&rdquo; a fixed and predictable price that gave customers
+          more certainty about what they&rsquo;d continue to pay. I added a &ldquo;subtotal / tax
+          &mdash; calculated at final step&rdquo; line so a tax amount never appeared as a
+          surprise, and let the wording flex with progress: &ldquo;per month excluding tax&rdquo;
+          before billing details, &ldquo;including tax&rdquo; after.</p>
+
+          <p class="muted small">
+            A note on the stacked&#8209;promotion versions in these frames: I designed for the
+            stacked complexity so the component wouldn&rsquo;t break. The business later decided
+            promotions wouldn&rsquo;t stack in this flow on the website, so the live experience
+            uses the simpler state.
+          </p>
+
+          <h2>Research</h2>
+          <p>
+            The flow was validated through 8 moderated sessions with US participants: 4 sole
+            traders and 4 owners of small&#8209;to&#8209;medium businesses with employees. I ran
+            4 and synthesised alongside the senior designer.
+          </p>
+          <p>What we learned:</p>
+          <ul>
+            <li>
+              <strong>Upfront payment wasn&rsquo;t a blocker.</strong> People weren&rsquo;t there
+              just for the free month, and entering a card didn&rsquo;t put them off, especially
+              with the reassurance they could cancel within it. As one participant put it:
+              &ldquo;switching accounting software is too much effort to only do it for the one
+              month free.&rdquo;
+            </li>
+            <li>
+              <strong>The order summary panel worked as a visual anchor.</strong> Participants
+              valued the constant reminder of what they were buying, and the price breakdown in
+              particular. One said the layout &ldquo;helps my eyes to read and process the
+              information simply. I like that the summary panel is a constant reminder of what
+              you&rsquo;re purchasing throughout the sign up process.&rdquo;
+            </li>
+            <li><strong>People wanted certainty about dates and future price.</strong> They understood the free month but wanted the exact billing date and confirmation the price wouldn&rsquo;t change. This drove the wording changes above.</li>
+            <li><strong>&ldquo;One month free&rdquo; and &ldquo;free trial&rdquo; blurred.</strong> Some used the terms interchangeably, which later mattered for discounting (see Phase 2).</li>
+            <li><strong>Two CTAs weren&rsquo;t confusing.</strong> Despite internal concern about showing both &ldquo;get one month free&rdquo; and &ldquo;buy now&rdquo; in the pricing table, testing showed people handled it fine.</li>
+          </ul>
+
+          <h2>Phase 2 &mdash; Localisation, Tax and Discounting</h2>
+          <p>
+            Phase 2 rolled the flow out to the UK and AU, which meant working in the
+            in&#8209;product checkout as well as the website. Complexity grew as the validated
+            flow was integrated with everything around it: tax, discounting, in&#8209;product
+            error handling, and the emails.
+          </p>
+
+          <h3>Tax</h3>
+          <p>
+            Previously Xero absorbed the tax component. A business change meant tax was now
+            passed on to customers &mdash; and because tax varies by country, and by state in
+            the US, the final amount couldn&rsquo;t be known until the customer entered their
+            billing address. This gave the panel a new problem to solve: it had to show that tax
+            was coming without showing a number it couldn&rsquo;t yet calculate, which is where
+            the &ldquo;calculated at final step&rdquo; line and the excluding/including&#8209;tax
+            wording came from. Getting this right meant aligning the same tax logic and wording
+            across five markets and three surfaces &mdash; website, emails and in&#8209;product
+            &mdash; each needing legal sign&#8209;off.
+          </p>
+
+          <h3>The discount trap</h3>
+          <p>
+            Moving payment forward created a hidden cost. By creating the account early in the
+            &ldquo;get one month free&rdquo; path, those customers became ineligible for the
+            heavy promotions marketing runs (for example 50&ndash;90% off for several months),
+            which they could still get through the old &ldquo;buy now&rdquo; path. So a flow sold
+            on less friction could quietly hand someone a worse deal.
+          </p>
+          <p>
+            The root cause was our legacy billing system, which only supported discounts for new
+            subscribers, new subscriptions and upgrades, not for existing payment&#8209;first
+            customers. Resolving it properly meant opening discounting up to payment&#8209;first
+            customers in Phase 2. One constraint shaped the approach: the billing platform was
+            being replaced, a multi&#8209;year migration to Chargebee. The job wasn&rsquo;t to
+            build a perfect discounting system, it was to build something functionally solid that
+            wouldn&rsquo;t block promotions for the two&#8209;to&#8209;three years until the new
+            platform had migrated. Right&#8209;sizing the effort to that reality was part of the
+            design decision.
+          </p>
+
+          <h3>In-product discount error messaging</h3>
+          <p>
+            Offering the discount in&#8209;product introduced messy failure states: the discount
+            was already applied, or it was linked to a different organisation, or the customer
+            was logged into a non&#8209;linked org when they clicked through from the email. One
+            option was a separate message for each case. Instead I collapsed them into a single
+            scalable message that listed the possible reasons and gave one recovery action,
+            &ldquo;check your subscription list,&rdquo; resulting in far less for engineering to
+            build and maintain. I grounded the pattern in Xero&rsquo;s existing in&#8209;product
+            system: a toast for passive confirmation, a banner when action was required, and
+            colour to signal severity before the words (green confirm, red error bar), so people
+            read the outcome at a glance.
+          </p>
+
+          <h3>The emails</h3>
+          <p>
+            The confirmation and lifecycle emails come after signup is completed. The website and
+            in&#8209;product checkout had been streamlined, but the emails were inconsistent:
+            oversized headers with imagery that pushed the billing information below the fold,
+            and different treatments across the set.
+          </p>
+          <p>
+            There was a specific issue with the confirmation email. My order summary panel had
+            already been carried into it, lifted directly from the checkout, with a date line
+            added. The panel had been built as a persistent anchor during an active checkout, and
+            it didn&rsquo;t hold the same meaning read cold in an inbox days later. Research on
+            that email caught the problem: seeing the recurring price first, some people
+            weren&rsquo;t sure whether they&rsquo;d been charged.
+          </p>
+          <p>
+            So I redesigned the receipt for the email. All email copy had been approved by legal,
+            so improvements came from hierarchy and structure. I surfaced &ldquo;Today&rsquo;s
+            total &pound;0.00&rdquo; at the very top, in bold, so the first line shows that
+            nothing is being charged today. I confined green to the discount lines only, split
+            billing and account details into a separate container for chunking, and chose a
+            longer but clearer single&#8209;line billing layout, since the &pound;0 was already
+            surfaced up top. I stress&#8209;tested it across the shortest and longest receipts: no
+            add&#8209;ons, and all add&#8209;ons with stacked discounts. Across the rest of the
+            set I removed the heavy header images, cut unnecessary padding, and balanced each
+            layout, leaving the plain verify&#8209;account email alone since it didn&rsquo;t need
+            it.
+          </p>
+          <p>
+            Because I was changing hierarchy and structure rather than the legally&#8209;locked
+            copy, the work fit within the brief&rsquo;s scope &mdash; and the PM who owned the
+            emails agreed and approved it. The redesigned emails shipped.
+          </p>
+
+          <h2>Impact</h2>
+          <p>In A/B testing, the flow contributed to:</p>
+          <ul>
+            <li>+6.40% website sign-up &rarr; paid organisation uplift (US), with a +9% improvement in session-to-paid-org</li>
+            <li>+1.51% uplift (NZ), with +13% session-to-paid-org and a +11% increase in second-billing-cycle retention</li>
+            <li>Signup reduced from 12 &rarr; 9 screens</li>
+          </ul>
+          <p>
+            It launched in the US in 2024 and rolled out to NZ, then the UK (2025, staggered
+            10 &rarr; 30 &rarr; 50% over a five&#8209;month experiment) and AU. It&rsquo;s now
+            live across all four markets (US, NZ, UK, AU).
+          </p>
+
+          <h2>Trade-offs &amp; Reflection</h2>
+          <p>A few things I conceded, or would push on with more time:</p>
+          <ul>
+            <li><strong>Discount lock-in (resolved in Phase 2):</strong> reducing friction created a hidden cost &mdash; customers on the new flow became ineligible for better deals still available through the old buy-now path.</li>
+            <li><strong>The &ldquo;get one month free&rdquo; CTA loop:</strong> the nav CTA sent people back to the pricing page to pick a plan, a redundant loop. A cleaner entry would have been better, but routing people into the payment-first flow was a business priority.</li>
+            <li><strong>Feature-name inconsistencies:</strong> the same feature was named differently across surfaces (&ldquo;Pay bills (GBP)&rdquo; vs &ldquo;Submit CIS returns&rdquo; vs &ldquo;CIS Contractor&rdquo; on one screen). It belonged to another team and sat outside the project&rsquo;s scope, so the inconsistency was flagged and backlogged.</li>
+            <li><strong>Subscription-cancellation copy:</strong> &ldquo;cancellation due on [date]&rdquo; wasn&rsquo;t clear about whether the subscription had actually been cancelled. Engineering was scoped to this project, not the foundational subscription management system, so this was logged for a future solve.</li>
+          </ul>
+          <p>
+            The lift didn&rsquo;t come from the headline idea of taking payment early &mdash; it
+            came from removing a duplicated decision and making one continuous journey. The
+            project also reinforced how to ship complex change incrementally: validate in simpler
+            markets first, then scale into the ones where tax, legal and promotional complexity
+            compound.
+          </p>
+        </div>
+
+        <hr class="divider mt-3">
+
+        <nav class="case-nav mt-3">
+          <a href="/#work">&larr; All work</a>
+          <a href="mailto:marytruong.zmy@gmail.com">Get in touch &rarr;</a>
+        </nav>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>&copy; <span data-year>2026</span> Mary Truong</span>
+      <span class="row">
+        <a href="mailto:marytruong.zmy@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/marytruong/">LinkedIn</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

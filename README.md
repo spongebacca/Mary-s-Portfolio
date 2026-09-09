@@ -1,53 +1,41 @@
 # Mary's Portfolio
 
-Product design portfolio. Plain static HTML/CSS/JS — no build step, no dependencies.
+Product design portfolio, ported from Framer (marytruong.design). Plain static
+HTML/CSS/JS — no build step, no dependencies.
 
 ## Structure
 
 ```
-index.html              Home: hero, selected work, about teaser
-about.html              About / experience / links
-404.html                Not-found page
+index.html               Home: hero, stats, selected work (4 cards), about teaser
+about.html                About / experience / contact
 work/
-  project-one.html      Full case-study template (copy this for new projects)
-  project-two.html
-  project-three.html
+  checkout-flow.html      Live case study: Simplifying Web-to-Product Checkout
+  project-one.html        Blank case-study template (copy this for the next real case study)
+404.html                 Not-found page
 assets/
-  css/styles.css        All styling. Design tokens are the :root variables at the top.
-  js/main.js            Tiny progressive enhancement (footer year, active nav). Site works without it.
-  img/                  Images go here (see naming below)
+  css/styles.css          All styling. Design tokens are the :root variables at the top.
+  js/main.js              Tiny progressive enhancement (footer year, active nav). Site works without it.
+  img/                   Images go here (currently unused — the live content has none)
 favicon.svg
 robots.txt  sitemap.xml
-vercel.json             Hosting config for Vercel
+vercel.json              Hosting config for Vercel
 ```
 
-## Editing
+Three of the four work-grid cards (Pricing Systems, Design System, Guided Plan
+Recommendation) are marked "Coming soon" — they match the live Framer site, which
+doesn't have full case studies for them yet.
 
-Everything marked `[like this]`, `YOUR-DOMAIN.com`, `YOUR-HANDLE`, "Mary Lastname",
-or "Replace with…" is a placeholder. Search the repo for those and replace.
-
-**Global find-and-replace before launch:**
-- `Mary Lastname` → real name
-- `YOUR-DOMAIN.com` → real domain
-- `mary@YOUR-DOMAIN.com` → real email
-- `YOUR-HANDLE` → LinkedIn / read.cv handles
-- `[your focus area]`, `[X] years`, `[industry / product type]`, etc. → real copy
-
-The header and footer markup is duplicated in each HTML file (no templating). If you
-change nav links, update every page.
-
-### Adding a case study
+### Adding the next case study
 
 1. Copy `work/project-one.html` to `work/your-slug.html`
 2. Update `<title>`, meta tags, canonical URL, and the case content
-3. Add a `<a class="work-card">` block on `index.html`
+3. Swap the matching "Coming soon" card on `index.html` to a real `<a class="work-card">` link
 4. Add the URL to `sitemap.xml`
-5. Fix the prev/next links in `.case-nav`
 
 ### Images
 
 Put them in `assets/img/<project-slug>/`. Optimize before committing (aim < 300 KB each;
-export at 2× the display size). Replace the `.placeholder-media` / `.thumb` divs with:
+export at 2× the display size):
 
 ```html
 <img src="/assets/img/project-one/cover.png" alt="Describe what the image shows" width="1600" height="1000">
@@ -57,8 +45,8 @@ Always write real `alt` text and include `width`/`height` to avoid layout shift.
 
 ### Résumé
 
-Drop the PDF at `assets/mary-lastname-resume.pdf` (matches the links already in the HTML),
-or update the links.
+Links point at the Google Drive résumé used on the live site. Swap to a PDF committed
+under `assets/` if you'd rather self-host it.
 
 ## Local preview
 
